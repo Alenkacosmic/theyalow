@@ -87,7 +87,7 @@ img.navShadow2 {
     margin-top: 70px;
     background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
     border: none;
-    
+    list-style-type: none;
 }
 .nav-item {
     display: flex;
@@ -108,13 +108,4 @@ li {
 }
 li:hover {
     color: green;
-}
-ul > li.about {
-    list-style-image: url(./assets/images/Shape\ 5.svg);
-}
-ul > li.service {
-    list-style-image: url(./assets/images/Shape\ 6.svg);
-}
-ul > li.contact {
-    list-style-image: url(./assets/images/Shape\ 7.svg);
 }
