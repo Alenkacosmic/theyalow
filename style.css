@@ -10,7 +10,7 @@
     width: 1300px;
     display: grid;
     grid-template-columns: 232px 225px 703px 140px; 
-    grid-template-areas: "logoMain" "logo" "navbar" .;
+    grid-template-areas: "logoMain" "logo" "navbar";
 }
 .logoMain {
     height: 85px;
@@ -38,7 +38,7 @@ h1 {
     padding: 0px;
     border: none;    
 }
-nav{
+nav {
     width: 464px;
     height: 112px;
     justify-self: end;
@@ -80,6 +80,100 @@ nav{
     width: 1300px;
     display: grid;
     grid-template-columns: 150px 549px 1fr 159px;
+    grid-template-areas: "slider-left" "video" "cool-text" "slider right";
+}
+.slider-left {
+    background: url(./assets/images/Rectangle\ 3\ copy.svg);
+    width: 32px;
+    height: 57px;
+    justify-self: left;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.video {
+    align-self: center;
+}
+.birds {
+    width: 549px;
+    height: 327px;
+    background-image: url(./assets/images/Layer\ 18.png);
+    background-size: 550px 328px;
+    background-position: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.75);
+    background-color: #efdc8f;
+}
+.cool-text {
+    width: 392px;
+    height: 121px;
+    margin-left: 51px;
+    margin-top: 146px;
+}
+h2 {
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.thecool {
+    color: #f5c506;
+}
+.theminimal {
+ color: #ffffff;
+}
+.slider-right {
+    background: url(./assets/images/Rectangle\ 3.svg);
+    width: 32px;
+    height: 57px;
+    justify-self: right;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.columns-wrapper {
+    height: 212px;
+    width: 1300px;
+    background: url(./assets/images/Layer\ 7.png);
+    background-size: cover;
+    margin: 0;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "download" "eco" "telegram";
+}
+.download {
+    display: block;
+}
+h4 {
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000; 
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.cloud {
+    width: 109px;
+    height: 74px;
+    margin-top: 59px;
+    box-shadow: 2.5px 4.33px 0px rgba(185,148,1,0.69);
+    background: url(./assets/images/Shape\ 2.svg);  
+    
+
+}
+.leaf {
+    width: 91px;
+    height: 95px;
+    box-shadow: 2.5px 4.33px 0px rgba(185,148,1,0.69);
+}
+.plane {
+    width: 81px;
+    height: 83px;
+    border-radius: 22px;
+    box-shadow: 2.5px 4.33px 0px rgba(185,148,1,0.69);
 }
 .footer-wrapper {
     height: 64px;
