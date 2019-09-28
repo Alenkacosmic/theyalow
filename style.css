@@ -8,15 +8,11 @@
 .header {
     height: 112px;
     width: 1300px;
-    display: flex;
-    justify-content: space-between;
-}
-.logo {
-    display: inline-block;
-    justify-content: inherit;
+    display: grid;
+    grid-template-columns: 232px 225px 703px 140px; 
+    grid-template-areas: "logoMain" "logo" "navbar" .;
 }
 .logoMain {
-    position: absolute;
     height: 85px;
     width: 85px;
     margin-top: 27px;
@@ -24,12 +20,9 @@
     background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
     background-size: cover;
 }
-img.logoShadow {
-    position: absolute;
-    height: 80px;
-    width: 79px;
-    margin-left: 142px;
-    margin-top: 29px;
+.logo {
+    height: 112px;
+    width: 225px;
 }
 h1 {
     font-size: 41px;
@@ -40,47 +33,18 @@ h1 {
     text-align: center;
     box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
     text-transform: uppercase;
-    margin-bottom: 22px;
     margin-top: 60px;
-    margin-left: 232px;
+    margin-bottom: 0;
     padding: 0px;
-    border: none;
-    
+    border: none;    
 }
 nav{
-    position: absolute;
     width: 464px;
-    height: 41px;
-    padding: 0px;
-    margin-right: 140px;
-    margin-left: 696px;
-    margin-bottom: 0px; 
-    margin-top: 0px;   
-}
-img.navShadow1 {
-    position: absolute;
-    width: 453px;
-    height: 41px;
-    padding: 0px;
-    margin-top: 65px;
-    margin-left: 6px;
-    z-index: auto;
-    border: 0px;
-    padding: 0px;
-}
-img.navShadow2 {
-    position: absolute;
-    width: 453px;
-    height: 41px;
-    padding: 0px;
-    margin-left: 2px;
-    margin-top: 62px;
-    z-index: auto;
-    border: 0px;
-    padding: 0px;
-}
-.navbar {
-    position: absolute;
+    height: 112px;
+    justify-self: end;
+    background: url(./assets/images/Rectangle\ 2\ copy\ 2.svg), url(./assets/images/Rectangle\ 2\ copy\ 3.svg); 
+    background-repeat: no-repeat;
+    background-position: 95% 95%, 90% 90%;
 }
 .navbar ul {
     display: flex;
@@ -116,4 +80,38 @@ img.navShadow2 {
     width: 1300px;
     display: grid;
     grid-template-columns: 150px 549px 1fr 159px;
+}
+.footer-wrapper {
+    height: 64px;
+    width: 1300px;
+    background: url(./assets/images/Layer\ 31.png);
+    background-size: cover;
+    margin: 0;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+.footer-content {
+    height: 64px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 203px 160px; 
+    grid-template-areas: "footer-image" "footer-logo";
+}
+.footer-image {
+    height: 56px;
+    width: 56px;
+    margin-top: 3px;
+    margin-left: 139px;
+    background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
+    background-size: cover; 
+}
+h3 {
+    width: 160px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+    margin-bottom: 0;
 }
