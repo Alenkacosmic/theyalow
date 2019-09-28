@@ -24,19 +24,20 @@
     height: 112px;
     width: 225px;
 }
-h1 {
+.sectionh {
     font-size: 41px;
     letter-spacing: 0px;
     color: #ffffff;
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
     text-transform: uppercase;
     margin-top: 60px;
     margin-bottom: 0;
     padding: 0px;
-    border: none;    
+    border: none;
+    margin-top: 51px;
+    margin-left: -4px;    
 }
 nav {
     width: 464px;
@@ -46,13 +47,10 @@ nav {
     background-repeat: no-repeat;
     background-position: 0px 62px, 4px 66px;
 }
-.about {
-    display: flex;
-    justify-content: center;
-}
 .navbar ul {
     display: flex;
     justify-content: space-between; 
+    align-items: center;
     height: 42px;
     width: 393px;
     padding-left: 39px;
@@ -100,8 +98,9 @@ nav {
     background-repeat: no-repeat;
     background-position: left center;
 }
-.video {
-    align-self: center;
+.video-birds {
+    margin-top: 56px;
+    align-self: auto;
 }
 .birds {
     width: 549px;
@@ -115,10 +114,22 @@ nav {
 .cool-text {
     width: 392px;
     height: 121px;
+    display: block;
     margin-left: 51px;
-    margin-top: 146px;
+    margin-top: 131px;
 }
-h2 {
+.section-cool {
+    color: #f5c506;
+    display: block;
+    padding-right: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.section-minimal {
+    color: #ffffff;
+    display: block;
+}
+.section1 {
     font-size: 62px;
     letter-spacing: 1px;
     font-family: "Asap";
@@ -126,12 +137,6 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-}
-.thecool {
-    color: #f5c506;
-}
-.theminimal {
- color: #ffffff;
 }
 .slider-right {
     background: url(./assets/images/Rectangle\ 3.svg);
@@ -143,35 +148,35 @@ h2 {
     background-position: right center;
 }
 .columns-wrapper {
-    height: 213px;
+    height: 212px;
     width: 1300px;
-    background: url(./assets/images/Layer\ 7.png);
-    background-size: cover;
+    background: url(./assets/images/Layer\ 8\ copy\ 4.png);
+    background-size: 100%;
     margin: 0;
+    padding: 0;
+    border: 0;
     box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
     display: grid;
     grid-template-columns: 143px repeat(3, 338px) 143px;
+    grid-template-rows: 212px;
 }
 .download {
-    display: block;
     grid-column: 2 / 3;
     margin-left: auto;
     margin-right: auto;
 }
 
 .eco {
-    display: block;
     grid-column: 3 / 4;
     margin-left: auto;
     margin-right: auto;
 }
 .telegram {
-    display: block;
     grid-column: 4 / 5;
     margin-left: auto;
     margin-right: auto;
 }
-h4 {
+.section2 {
     font-size: 27px;
     letter-spacing: 0px;
     color: #000000; 
@@ -187,9 +192,6 @@ h4 {
     margin-left: 29px;
     align-content: center;
 }
-.b-design {
-    text-align: center;
-}
 .leaf {
     width: 93px;
     height: 97px;
@@ -197,17 +199,108 @@ h4 {
     margin-left: 33px;
     align-content: center;
 }
-.customise {
-    text-align: center;
-}
 .plane {
     width: 83px;
     height: 85px;
     margin-top: 55px;
     align-content: center;
 }
-.free {
-    text-align: center;
+.yellow-wrapper {
+    height: 1007px;
+    width: 1300px;
+    background: url(./assets/images/Layer\ 32.png);
+    background-size: cover;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+.yellow-part {
+    width: 1300;
+    height: 510px;
+    display: block;
+}
+.add-items {
+    display: grid;
+    grid-template-columns: 140px 306px 35px 348px 80px 249px 142px;
+    grid-template-rows: 233px;
+}
+.description {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    display: block;
+    background: url(./assets/images/Layer\ 22.png);
+    box-sizing: border-box;
+    z-index: 1;
+}
+.d-text {
+    width: 272px;
+    height: 174px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 26px;
+    margin-right: 39px;
+    margin-bottom: 33px;
+}
+.video-monkey {
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+}
+.monkey {
+    width: 463px;
+    height: 233px;   
+}
+.big-bird {
+    grid-column: 5 / 7;
+    grid-row: 1 / 2;
+    background: url(./assets/images/Layer\ 22\ copy\ 3.png);
+    z-index: 1;
+    display: block;
+    box-sizing: border-box;
+    width: 329px;
+    height: 233px;
+    
+}
+.twitter-bird {
+    width: 163px;
+    height: 133px;
+    margin-left: 82px;
+    margin-top: 58px;  
+}
+
+.dater {
+    display: block;
+}
+.scroller {
+    display: block;
+}
+.black-part {
+    width: 1300;
+    height: 490px;
+    display: block;
+}
+.section3 {
+    width: 918px;
+    height: 112px;
+    letter-spacing: 0px;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+.yellow-section {
+    font-size: 37px;
+    color: #ffffff;
+}
+.yellow-header {
+    display: block;
+}
+.black-section {
+    font-size: 43px;
+    color: #f5c506;
+    margin-left: 356px;
 }
 .footer-wrapper {
     height: 64px;
@@ -232,14 +325,15 @@ h4 {
     background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
     background-size: cover; 
 }
-h3 {
+.sectionf {
     width: 160px;
     font-size: 29px;
     letter-spacing: 0px;
     color: #ffffff;
     font-family: "Lucida Sans";
     font-style: italic;
-    text-align: center;
-    box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+    text-align: inherit;
+    text-transform: uppercase;
     margin-bottom: 0;
+    margin-top: 15px;
 }
