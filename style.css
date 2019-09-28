@@ -90,13 +90,16 @@ nav {
     grid-template-areas: "slider-left" "video" "cool-text" "slider right";
 }
 .slider-left {
-    background: url(./assets/images/Rectangle\ 3\ copy.svg);
     width: 32px;
-    height: 57px;
+    height: 58px;
+    background: url(./assets/images/Rectangle\ 3\ copy.svg);
+    background-size: contain;    
     justify-self: left;
-    align-self: center;
     background-repeat: no-repeat;
-    background-position: left center;
+}
+.rectangle-left {
+    margin-top: 207px;
+    margin-left: 9px;
 }
 .video-birds {
     margin-top: 56px;
@@ -139,13 +142,17 @@ nav {
     margin: 0;
 }
 .slider-right {
+    width: 33px;
+    height: 558px;
     background: url(./assets/images/Rectangle\ 3.svg);
-    width: 32px;
-    height: 57px;
+    background-size: contain;    
     justify-self: right;
-    align-self: center;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: 0px 188px;
+}
+.rectangle-right {
+    margin-top: 207px;
+    margin-left: 12px;
 }
 .columns-wrapper {
     height: 212px;
@@ -297,10 +304,45 @@ nav {
 .yellow-header {
     display: block;
 }
+.black-header {
+    display: block;
+    text-align: center;
+}
+.black-part {
+    display: block;
+}
+.yellow-black {
+    display: flex;
+}
 .black-section {
     font-size: 43px;
     color: #f5c506;
-    margin-left: 356px;
+    margin-left: 187px;
+}
+.black-devices {
+    display: block;
+    width: 540px;
+    height: 255px;
+    margin-left: 158px;
+    margin-top: 23px;
+}
+.black-table {
+    display: block;
+    margin-left: 63px;
+    margin-top: 53px;
+}
+.black-list {
+    list-style-position: outside;
+}
+.black-item {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 10px;
 }
 .footer-wrapper {
     height: 64px;
