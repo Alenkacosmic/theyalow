@@ -1,7 +1,7 @@
 .wrapper {
     height: 1847px;
     width: 1300px;
-    background: url(./assets/images/Layer\ 32.png);
+    background: url(./assets/images/Layer\ 20.png);
     background-size: cover;
     margin: 0;
 }
@@ -11,12 +11,18 @@
     display: flex;
     justify-content: space-between;
 }
-img.logoMain {
+.logo {
+    display: inline-block;
+    justify-content: inherit;
+}
+.logoMain {
     position: absolute;
     height: 85px;
     width: 85px;
     margin-top: 27px;
     margin-left: 139px;
+    background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
+    background-size: cover;
 }
 img.logoShadow {
     position: absolute;
@@ -39,6 +45,7 @@ h1 {
     margin-left: 232px;
     padding: 0px;
     border: none;
+    
 }
 nav{
     position: absolute;
@@ -79,8 +86,9 @@ img.navShadow2 {
     display: flex;
     justify-content: space-around; 
     height: 42px;
-    width: 415px;
+    width: 393px;
     padding-left: 39px;
+    padding-right: 22px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 10px;
@@ -101,11 +109,11 @@ img.navShadow2 {
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
-
-}
-li {
     padding-left: 10px;
 }
-li:hover {
-    color: green;
+.parrots {
+    height: 454px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 150px 549px 1fr 159px;
 }
