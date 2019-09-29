@@ -283,10 +283,19 @@ nav {
 .description {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    display: block;
+    display: flex;
+    height: 233px;
+    width: 341px;
     background: url(./assets/images/Layer\ 22.png);
     box-sizing: border-box;
     z-index: 1;
+}
+.d-box {
+    height: 208x;
+    width: 341px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 .d-text {
     width: 272px;
@@ -301,6 +310,10 @@ nav {
     margin-top: 18px;
     margin-bottom: 41px;
 }
+.plus-box {
+    margin-top: 202px;
+    margin-right: 15px;
+}
 .video-monkey {
     grid-column: 3 / 6;
     grid-row: 1 / 2;
@@ -314,7 +327,7 @@ nav {
     grid-row: 1 / 2;
     background: url(./assets/images/Layer\ 22\ copy\ 3.png);
     z-index: 1;
-    display: block;
+    display: flex;
     box-sizing: border-box;
     width: 329px;
     height: 233px;
@@ -324,6 +337,15 @@ nav {
     height: 133px;
     margin-left: 82px;
     margin-top: 58px;  
+}
+.date-plus {
+    display: block;
+    margin-left: 43px;
+    margin-top: 16px;
+}
+.b-plus {
+    margin-left: 20px;
+    margin-top: 164px;
 }
 .dater {
     display: block;
@@ -420,18 +442,18 @@ nav {
     width: 540px;
     height: 255px;
     margin-left: 158px;
-    margin-top: 23px;
+    margin-top: 43px;
 }
 .black-table {
     display: block;
-    margin-left: 63px;
-    margin-top: 53px;
+    margin-left: 47px;
+    margin-top: 73px;
 }
 .black-list {
     list-style-position: outside;
     list-style-image: url(./assets/images/Ellipse\ 4\ copy.svg);
-    width: 602px;
-    height: 419px;
+    width: 438px;
+    height: 228px;
     margin: 0;
 }
 .black-item {
@@ -457,7 +479,7 @@ nav {
     height: 64px;
     width: 1300px;
     display: grid;
-    grid-template-columns: 203px 160px; 
+    grid-template-columns: 201px 160px;
     grid-template-areas: "footer-image" "footer-logo";
 }
 .footer-image {
@@ -478,7 +500,7 @@ nav {
     text-align: inherit;
     text-transform: uppercase;
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 @media only screen and (max-width: 640px){
     .wrapper {
