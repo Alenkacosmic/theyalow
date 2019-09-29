@@ -791,9 +791,9 @@ nav {
     .yellow-wrapper {
         height: 951px;
         width: 640px;
-        background: url(./assets/images/Layer\ 32.png);
-        background-size: cover;
-        box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+        background: url(./assets/images/mobile/Layer\ 33.png);
+        background-position-y: 464px;
+        background-repeat: no-repeat;
         position: relative;
     }
     .yellow-part {
@@ -802,7 +802,7 @@ nav {
         display: block;
     }
     .yellow-header {
-        display: block;
+        display: none;
         margin-bottom: 39px;
     }
     .yellow-section {
@@ -894,7 +894,7 @@ nav {
         margin-top: 164px;
     }
     .dater {
-        display: block;
+        display: none;
         width: 113px;
         height: 86px;
         margin-top: 1px;
@@ -921,7 +921,7 @@ nav {
         margin-left: 32px;
     }
     .scroller {
-        display: block;
+        display: none;
         height: 16px;
         margin-left: 213px;
     }
@@ -1036,11 +1036,12 @@ nav {
     }
     .footer-wrapper {
         height: 64px;
-        width: 1300px;
-        background: url(./assets/images/Layer\ 31.png);
+        width: 640px;
+        background: url(./assets/images/mobile/Layer\ 36.png);
         background-size: cover;
         margin: 0;
         box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+        z-index: 1;
     }
     .footer-content {
         height: 64px;
@@ -1050,10 +1051,10 @@ nav {
         grid-template-areas: "footer-image" "footer-logo";
     }
     .footer-image {
-        height: 56px;
-        width: 56px;
-        margin-top: 3px;
-        margin-left: 139px;
+        height: 33px;
+        width: 32px;
+        margin-top: 5px;
+        margin-left: 64px;
         background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
         background-size: cover; 
     }
