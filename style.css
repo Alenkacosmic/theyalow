@@ -9,7 +9,7 @@
     height: 112px;
     width: 1300px;
     display: grid;
-    grid-template-columns: 232px 225px 703px 140px; 
+    grid-template-columns: 227px 225px 708px 140px;
     grid-template-areas: "logoMain" "logo" "navbar";
 }
 .logoMain {
@@ -200,19 +200,21 @@ nav {
 }
 .download {
     grid-column: 2 / 3;
-    margin-left: auto;
+    margin-left: 83px;
     margin-right: auto;
+    display: block;
 }
-
 .eco {
     grid-column: 3 / 4;
-    margin-left: auto;
+    display: block;
+    margin-left: 109px;
     margin-right: auto;
 }
 .telegram {
     grid-column: 4 / 5;
-    margin-left: auto;
+    margin-left: 113px;
     margin-right: auto;
+    display: block;
 }
 .section2 {
     font-size: 27px;
@@ -226,22 +228,24 @@ nav {
 .cloud {
     width: 112px;
     height: 77px;
-    margin-top: 61px;
-    margin-left: 29px;
+    margin-top: 64px;
+    margin-left: 26px;
     align-content: center;
 }
 .leaf {
     width: 93px;
     height: 97px;
     margin-top: 38px;
-    margin-left: 33px;
+    margin-left: 24px;
+    margin-bottom: 8px;
     align-content: center;
 }
 .plane {
-    width: 83px;
+    width: 95px;
     height: 85px;
     margin-top: 55px;
     align-content: center;
+    margin-bottom: 3px;
 }
 .yellow-wrapper {
     height: 1007px;
@@ -415,6 +419,27 @@ nav {
     height: 80px;
     margin-bottom: 13px;
 }
+.free{
+    display: block;
+}
+.round-free {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    margin-left: 138px;
+    border-radius: 58px;
+    background-color: #f5c506;
+}
+.text-free {
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    margin-top: 45px;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
 .black-part {
     width: 1300px;
     height: 499px;
@@ -457,7 +482,7 @@ nav {
     margin: 0;
 }
 .black-item {
-    width: 352px;
+    width: 372px;
     height: 45px;
     font-size: 22px;
     letter-spacing: 0px;
