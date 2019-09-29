@@ -255,10 +255,30 @@ nav {
     height: 510px;
     display: block;
 }
+.yellow-header {
+    display: block;
+    margin-bottom: 39px;
+}
+.yellow-section {
+    font-size: 37px;
+    color: #ffffff;
+    width: 517px;
+    height: 70px;
+    border: 0;
+    padding-top: 27px;
+    margin-left: 140px;
+    margin-top: 0;
+    text-align: justify;
+    letter-spacing: auto;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
 .add-items {
     display: grid;
     grid-template-columns: 140px 306px 35px 348px 80px 249px 142px;
     grid-template-rows: 233px;
+    margin: 0;
 }
 .description {
     grid-column: 2 / 4;
@@ -278,9 +298,8 @@ nav {
     font-family: "Segoe WP";
     font-weight: 300;
     margin-left: 30px;
-    margin-top: 26px;
-    margin-right: 39px;
-    margin-bottom: 33px;
+    margin-top: 18px;
+    margin-bottom: 41px;
 }
 .video-monkey {
     grid-column: 3 / 6;
@@ -299,7 +318,6 @@ nav {
     box-sizing: border-box;
     width: 329px;
     height: 233px;
-    
 }
 .twitter-bird {
     width: 163px;
@@ -307,32 +325,34 @@ nav {
     margin-left: 82px;
     margin-top: 58px;  
 }
-
 .dater {
     display: block;
+    width: 113px;
+    height: 86px;
+    margin-top: 1px;
+    margin-left: 139px;                             
+    margin-bottom: 42px;
+    background: url(./assets/images/Layer\ 22\ copy.png);
+    background-size: cover;
+    padding-top: 15px;
+}
+.date-day {
+    display: block;
+    height: 38px;
+    width: 55px;
+    padding: 0;
+    border: 0;
+    margin-left: 31px;
+    margin-bottom: 9px;
+}
+.date-month {
+    display: block;
+    height: 15px;
+    width: 55px;
+    margin-top: 0px;
+    margin-left: 32px;
 }
 .scroller {
-    display: block;
-}
-.black-part {
-    width: 1300;
-    height: 490px;
-    display: block;
-}
-.section3 {
-    width: 918px;
-    height: 112px;
-    letter-spacing: 0px;
-    font-family: "PT Sans";
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
-}
-.yellow-section {
-    font-size: 37px;
-    color: #ffffff;
-}
-.yellow-header {
     display: block;
 }
 .yellow-scroller {
@@ -351,8 +371,8 @@ nav {
 .yellow-scroller::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 198px;
+    height: 16px;
     background: rgba(236, 158, 3, 1);
     cursor: pointer;
 }
@@ -376,6 +396,13 @@ nav {
     font-size: 43px;
     color: #f5c506;
     margin-left: 187px;
+    width: 918px;
+    height: 112px;
+    letter-spacing: auto;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
 }
 .black-devices {
     display: block;
