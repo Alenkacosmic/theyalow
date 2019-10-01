@@ -344,6 +344,30 @@ nav {
     margin-left: 82px;
     margin-top: 58px;  
 }
+.tweeting {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #8f8e8e;
+    font-family: "Arial";
+}
+.sumit-tweet {
+    display: none;
+}
+.mobile-twitter {
+    display: none;
+}
+.twitter-me {
+    display: none;
+}
+.first-tweet {
+    display: none;
+}
+.second-tweet {
+    display: none;
+}
+.third-tweet {
+    display: none;
+}
 .date-plus {
     display: block;
     margin-left: 43px;
@@ -730,7 +754,6 @@ nav {
     }
     .columns-wrapper {
         box-shadow: none;
-        position: relative;
         width: 640px;
         height: 174px;
         background: url(./assets/images/mobile/Layer\ 27\ copy.png);
@@ -739,68 +762,72 @@ nav {
     }
     .download {
         display: block;
-        width: 430px;
+        width: 310px;
         margin-left: 5px;
         justify-content: center;
-        padding-left: 223px;
+        padding-left: 0;
     }
     .eco {
         display: block;
-        width: 430px;
+        width: 310px;
         justify-content: center;
-        padding-left: 154px;
+        padding-left: 57px;
     }
     .telegram {
         display: block;
-        width: 430px;
-        margin-right: 5px;
+        width: 310px;
+        margin-right: 0;
         justify-content: center;
-        padding-left: 67px;
+        padding-left: 60px;
     }
     .section2 {
-        font-size: 27px;
+        font-size: 23px;
         letter-spacing: 0px;
-        color: #000000; 
+        color: #000000;
         font-family: "Segoe UI";
         font-weight: 300;
+        text-align: left;
+        padding-left: 12px;
         text-transform: uppercase;
         margin: 0;
     }
     .cloud {
-        width: 112px;
-        height: 77px;
-        margin-top: 64px;
-        margin-left: 26px;
+        width: 90px;
+        height: 62px;
+        margin-top: 35px;
+        margin-left: 39px;
+        margin-bottom: 12px;
     }
     .leaf {
-        width: 93px;
-        height: 97px;
-        margin-top: 38px;
-        margin-left: 24px;
-        margin-bottom: 8px;
-        align-content: center;
+        width: 67px;
+        height: 70px;
+        margin-top: 30px;
+        margin-left: 36px;
+        margin-bottom: 9px;
     }
     .plane {
-        width: 95px;
-        height: 85px;
-        margin-top: 55px;
-        align-content: center;
-        margin-bottom: 3px;
+        width: 69px;
+        height: 70px;
+        margin-top: 30px;
+        margin-bottom: 9px;
+        margin-left: 15px;
     }
     .yellow-wrapper {
-        height: 1007px;
-        width: 1300px;
-        background: url(./assets/images/Layer\ 32.png);
+        height: 947px;
+        width: 640px;
+        background: url(./assets/images/mobile/Layer\ 33.png);
+        background-position-y: 480px;
+        background-repeat: no-repeat;
         background-size: cover;
-        box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+        box-shadow: none;
     }
     .yellow-part {
         width: 1300;
-        height: 509px;
+        height: 506px;
         display: block;
     }
     .yellow-header {
-        display: block;
+        display: none;
         margin-bottom: 39px;
     }
     .yellow-section {
@@ -821,55 +848,120 @@ nav {
     .add-items {
         display: flex;
         margin: 0;
+        padding-left: 0;    
     }
     .mobile-add-items {
-        display: none;
+        display: block;
     }
     .description {
-        grid-column: 2 / 4;
-        grid-row: 1 / 2;
         display: flex;
-        height: 233px;
-        width: 341px;
+        height: 232px;
+        width: 299px;
         background: url(./assets/images/Layer\ 22.png);
         box-sizing: border-box;
-        z-index: 1;
+        z-index: 0;
+        margin-left: 9px;
+        margin-top: 7px;
+        margin-right: 9px;
+        margin-bottom: 9px;
     }
     .d-box {
-        height: 208x;
-        width: 341px;
+        height: 226px;
+        width: 275px;
         margin: 0;
         padding: 0;
         border: 0;
     }
     .d-text {
-        width: 272px;
-        height: 174px;
+        width: 255px;
+        height: 214px;
         font-size: 29px;
         letter-spacing: 0px;
-        line-height: 38px;
+        line-height: 33px;
         color: #ffffff;
         font-family: "Segoe WP";
         font-weight: 300;
-        margin-left: 30px;
-        margin-top: 18px;
-        margin-bottom: 41px;
+        margin-left: 27px;
+        margin-top: 16px;
+        padding-right: 17px;
+        margin-bottom: 0;
     }
     .plus-box {
-        margin-top: 202px;
+        margin-top: 195px;
         margin-right: 15px;
     }
     .video-monkey {
-        grid-column: 3 / 6;
-        grid-row: 1 / 2;
+        height: 233px;
+        width: 332px;
     }
     .monkey {
-        width: 463px;
-        height: 233px;   
+        width: 345px;
+        height: 233px;
+        margin-top: 4px;
+    }
+    .mobile-twitter {
+        display: flex;
+        height: 233px;
+        width: 640px;
+        background: url(./assets/images/mobile/Layer\ 22\ copy\ 3.png);
+        background-size: cover;
+    }
+    .tweeting {
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: "Arial";
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .twitter-me {
+        display: block;
+        margin-left: 65px;
+        width: 313px;
+    }
+    .first-tweet {
+        display: block;
+        height: 41px;
+        width: 290px;
+        padding-left: 28px;
+        padding-top: 4px;
+        background: url(./assets/images/mobile/Rounded\ Rectangle\ 2.svg);
+        background-repeat: no-repeat;
+        margin-top: 24px;
+        margin-left: 13px;
+    }
+    .second-tweet {
+        display: block;
+        background: url(./assets/images/mobile/Rounded\ Rectangle\ 2\ copy.svg);
+        background-repeat: no-repeat;
+        height: 41px;
+        width: 290px;
+        margin-top: 14px;
+        margin-left: 14px;
+        padding-left: 27px;
+        padding-top: 5px;
+    }
+    .third-tweet {
+        display: block;
+        height: 41px;
+        width: 290px;
+        background: url(./assets/images/mobile/Rounded\ Rectangle\ 2\ copy\ 2.svg);
+        background-repeat: no-repeat;
+        margin-top: 14px;
+        margin-left: 13px;
+        padding-left: 28px;
+        padding-top: 7px;
+    }
+    .sumit-tweet {
+        display: inline-block;
+        font-size: 15px;
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Arial";
+        background-color: rgba(188,125,0,0.9019607843137255);
     }
     .big-bird {
-        grid-column: 5 / 7;
-        grid-row: 1 / 2;
         background: url(./assets/images/Layer\ 22\ copy\ 3.png);
         z-index: 1;
         display: flex;
@@ -884,7 +976,7 @@ nav {
         margin-top: 58px;  
     }
     .date-plus {
-        display: block;
+        display: none;
         margin-left: 43px;
         margin-top: 16px;
     }
@@ -893,7 +985,7 @@ nav {
         margin-top: 164px;
     }
     .dater {
-        display: block;
+        display: none;
         width: 113px;
         height: 86px;
         margin-top: 1px;
@@ -904,7 +996,7 @@ nav {
         padding-top: 15px;
     }
     .date-day {
-        display: block;
+        display: none;
         height: 38px;
         width: 55px;
         padding: 0;
@@ -913,14 +1005,14 @@ nav {
         margin-bottom: 9px;
     }
     .date-month {
-        display: block;
+        display: none;
         height: 15px;
         width: 55px;
         margin-top: 0px;
         margin-left: 32px;
     }
     .scroller {
-        display: block;
+        display: none;
         height: 16px;
         margin-left: 213px;
     }
@@ -956,9 +1048,9 @@ nav {
     }
     .black-header {
         display: block;
-        width: 1300px;
+        width: 640px;
         height: 80px;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
     }
     .free{
         display: block;
@@ -967,7 +1059,7 @@ nav {
         position: absolute;
         width: 116px;
         height: 116px;
-        margin-left: 138px;
+        margin-left: 27px;
         border-radius: 58px;
         background-color: #f5c506;
     }
@@ -996,8 +1088,8 @@ nav {
         font-weight: 400;
         text-transform: uppercase;
         margin: 0;
-        padding-top: 29px;
-        margin-left: 349px;
+        padding-top: 0;
+        margin-left: 18px;
         text-align: justify;
     }
     .yellow-black {
@@ -1007,11 +1099,11 @@ nav {
         display: block;
         width: 540px;
         height: 255px;
-        margin-left: 158px;
-        margin-top: 43px;
+        margin-left: 57px;
+        margin-top: 41px;
     }
     .black-table {
-        display: block;
+        display: none;
         margin-left: 47px;
         margin-top: 73px;
     }
@@ -1035,7 +1127,7 @@ nav {
     }
     .footer-wrapper {
         height: 64px;
-        width: 1300px;
+        width: 640px;
         background: url(./assets/images/Layer\ 31.png);
         background-size: cover;
         margin: 0;
@@ -1043,10 +1135,8 @@ nav {
     }
     .footer-content {
         height: 64px;
-        width: 1300px;
-        display: grid;
-        grid-template-columns: 201px 160px;
-        grid-template-areas: "footer-image" "footer-logo";
+        width: 640px;
+        display: flex;
     }
     .footer-image {
         height: 56px;
