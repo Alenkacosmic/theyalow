@@ -8,9 +8,7 @@
 .header {
     height: 112px;
     width: 1300px;
-    display: grid;
-    grid-template-columns: 227px 225px 708px 140px;
-    grid-template-areas: "logoMain" "logo" "navbar";
+    display: flex;
 }
 .logoMain {
     height: 85px;
@@ -43,6 +41,7 @@ nav {
     width: 464px;
     height: 112px;
     justify-self: end;
+    margin-left: 247px;
     background: url(./assets/images/Rectangle\ 2\ copy\ 2.svg), url(./assets/images/Rectangle\ 2\ copy\ 3.svg); 
     background-repeat: no-repeat;
     background-position: 0px 62px, 4px 66px;
@@ -88,16 +87,16 @@ nav {
     width: 22px;
 }
 .about > .nav-item {
-    padding-right: 20px;
-    padding-left: 0px;
+    border-right: 1px;
+    padding-right: 27px;
 }
 .service > .nav-pic {
     height: 42px;
     width: 20px;
+    margin-right: -1px;
 }
 .service > .nav-item {
-    padding-right: 14px;
-    padding-left: 0px;
+    padding-right: 26px;
 }
 .contact > .nav-pic {
     height: 42px;
@@ -110,10 +109,7 @@ nav {
 .parrots {
     height: 454px;
     width: 1300px;
-    display: grid;
-    grid-template-columns: 150px 549px 1fr 159px;
-    grid-template-rows: 454px;
-    grid-template-areas: "slider-left" "video" "cool-text" "slider right";
+    display: flex;
 }
 .slider-left {
     width: 32px;
@@ -129,8 +125,10 @@ nav {
     margin-left: 9px;
 }
 .video-birds {
+    display: block;
     margin-top: 56px;
     align-self: auto;
+    margin-left: 119px;
 }
 .birds {
     width: 549px;
@@ -146,6 +144,9 @@ nav {
 }
 .cool-text {
     display: block;
+    width: 568px;
+    height: 444px;
+    margin-right: 25px;
 }
 .thecool {
     display: block;
