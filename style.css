@@ -174,7 +174,6 @@ nav {
     font-family: "Asap";
     font-weight: 400;
     text-transform: uppercase;
-    position: ;
 }
 .slider-right {
     width: 33px;
@@ -194,31 +193,31 @@ nav {
     width: 1300px;
     background: url(./assets/images/Layer\ 8\ copy\ 4.png);
     background-size: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
     border: 0;
     box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
-    display: grid;
-    grid-template-columns: 143px repeat(3, 338px) 143px;
-    grid-template-rows: 212px;
+    display: flex;
 }
 .download {
-    grid-column: 2 / 3;
-    margin-left: 83px;
-    margin-right: auto;
     display: block;
+    width: 430px;
+    margin-left: 5px;
+    justify-content: center;
+    padding-left: 223px;
 }
 .eco {
-    grid-column: 3 / 4;
     display: block;
-    margin-left: 109px;
-    margin-right: auto;
+    width: 430px;
+    justify-content: center;
+    padding-left: 154px;
 }
 .telegram {
-    grid-column: 4 / 5;
-    margin-left: 113px;
-    margin-right: auto;
     display: block;
+    width: 430px;
+    margin-right: 5px;
+    justify-content: center;
+    padding-left: 67px;
 }
 .section2 {
     font-size: 27px;
@@ -234,7 +233,6 @@ nav {
     height: 77px;
     margin-top: 64px;
     margin-left: 26px;
-    align-content: center;
 }
 .leaf {
     width: 93px;
@@ -283,18 +281,18 @@ nav {
     text-transform: uppercase;
 }
 .add-items {
-    display: grid;
-    grid-template-columns: 140px 306px 35px 348px 80px 249px 142px;
-    grid-template-rows: 233px;
+    display: flex;
     margin: 0;
+    padding-left: 138px;
+}
+.mobile-add-items {
+    display: none;
 }
 .description {
-    grid-column: 2 / 4;
-    grid-row: 1 / 2;
     display: flex;
-    height: 233px;
     width: 341px;
-    background: url(./assets/images/Layer\ 22.png);
+    height: 233px;
+    background: url(./assets/images/Layer\ 22.svg);
     box-sizing: border-box;
     z-index: 1;
 }
@@ -316,19 +314,19 @@ nav {
     font-weight: 300;
     margin-left: 30px;
     margin-top: 18px;
-    margin-bottom: 41px;
 }
 .plus-box {
     margin-top: 202px;
-    margin-right: 15px;
+    margin-right: 12px;
 }
 .video-monkey {
-    grid-column: 3 / 6;
-    grid-row: 1 / 2;
+    height: 233px;
+    width: 349px;
 }
 .monkey {
-    width: 463px;
+    width: 349px;
     height: 233px;   
+    padding-right: 34px;
 }
 .big-bird {
     grid-column: 5 / 7;
@@ -541,10 +539,8 @@ nav {
     }
     .header {
         height: 62px;
-        display: grid;
-        grid-template-columns: 52px 132px 456px;
-        grid-template-rows: 62px;
-        grid-template-areas: "logoMain" "logo" "navbar";
+        width: 640px;
+        display: flex;
         background: url(./assets/images/mobile/Layer\ 26.png);
     }
     .logoMain {
@@ -559,10 +555,11 @@ nav {
     .logo {
         height: 62px;
         width: 132px;
+        margin-right: 2px;
     }
     .sectionh {
         height: 15px;
-        width: 108px;
+        width: 117px;
         font-size: 19px;
         letter-spacing: 0px;
         color: #ffffff;
@@ -576,9 +573,10 @@ nav {
         margin-top: 19px;
     }   
     nav {
-        width: 456px;
+        width: 454px;
         height: 62px;
         justify-self: end;
+        margin: 0;
     }
     .nav-list {
         display: flex;
@@ -586,7 +584,7 @@ nav {
         align-items: center;
         height: 62px;
         width: 456px;
-        padding-left: 39px;
+        padding-left: 23px;
         padding-right: 22px;
         margin: 0px;
         background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
@@ -603,8 +601,8 @@ nav {
     }
     .nav-item {
         height: 41px;
-        font-size: 17px;
-        letter-spacing: 0px;
+        font-size: 18px;
+        letter-spacing: 1px;
         color: #9b7d08;
         font-family: "Segoe WP";
         text-align: center;
@@ -614,20 +612,20 @@ nav {
         padding-left: 0;
     }
     .about > .nav-pic {
-        height: 42px;
-        width: 22px;
+        height: 43px;
+        width: 25px;
     }
     .about > .nav-item {
-        padding-right: 20px;
-        padding-left: 0px;
+        border-right: 1px;
+        width: 102px;
     }
     .service > .nav-pic {
         height: 42px;
         width: 20px;
+        margin-left: 22px;
     }
     .service > .nav-item {
-        padding-right: 14px;
-        padding-left: 0px;
+        padding-right: 26px;
     }
     .contact > .nav-pic {
         height: 42px;
@@ -640,10 +638,9 @@ nav {
     .parrots {
         height: 327px;
         width: 640px;
-        display: block;    
+        display: flex;
     }
     .slider-left {
-        display: none;
         width: 32px;
         height: 457px;
         background: url(./assets/images/Rectangle\ 3\ copy.svg);
@@ -651,11 +648,12 @@ nav {
         justify-self: left;
         background-repeat: no-repeat;
         background-position: 0px 188px;
+        display: none;
     }
     .rectangle-left {
-        display: none;
         margin-top: 207px;
         margin-left: 9px;
+        display: none;
     }
     .video-birds {
         margin-top: 0;
@@ -683,22 +681,25 @@ nav {
     }
     .cool-text {
         display: none;
+        width: 568px;
+        height: 444px;
+        margin-right: 25px;
     }
     .thecool {
         display: none;
         position: absolute;  
     }
     .section-cool {
-        display: none;
         color: #f5c506;
+        display: none;
         position: static;
         margin-left: 91px;
         margin-top: 120px;
         height: 62px;
     }
     .section-minimal {
-        display: none;
         color: #ffffff;
+        display: none;
         position: relative;
         margin-top: 14px;
         margin-left: 50px;
@@ -711,10 +712,8 @@ nav {
         font-family: "Asap";
         font-weight: 400;
         text-transform: uppercase;
-        position: ;
     }
     .slider-right {
-        display: none;
         width: 33px;
         height: 457px;
         background: url(./assets/images/Rectangle\ 3.svg);
@@ -722,6 +721,7 @@ nav {
         justify-self: right;
         background-repeat: no-repeat;
         background-position: 0px 188px;
+        display: none;
     }
     .rectangle-right {
         display: none;
@@ -729,73 +729,70 @@ nav {
         margin-left: 12px;
     }
     .columns-wrapper {
+        box-shadow: none;
         position: relative;
         width: 640px;
         height: 174px;
-        background: url(./assets/images/mobile/Layer\ 27.png), url(./assets/images/mobile/Layer\ 27\ copy.png);
-        background-position: 0px 5px, 0px 10px;
-        box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
-        display: grid;
-        grid-template-columns: 12px repeat(3, 188px) 64px;
-        grid-template-rows: 174px;
+        background: url(./assets/images/mobile/Layer\ 27\ copy.png);
+        background-size: cover;
+        display: flex;
     }
     .download {
-        grid-column: 2 / 3;
-        margin:0;
         display: block;
+        width: 430px;
+        margin-left: 5px;
+        justify-content: center;
+        padding-left: 223px;
     }
     .eco {
-        grid-column: 3 / 4;
         display: block;
-        margin-left: 64px;
+        width: 430px;
+        justify-content: center;
+        padding-left: 154px;
     }
     .telegram {
-        grid-column: 4 / 5;
-        margin-left: 96px;
-        margin-right: 0;
         display: block;
+        width: 430px;
+        margin-right: 5px;
+        justify-content: center;
+        padding-left: 67px;
     }
     .section2 {
-        font-size: 23px;
+        font-size: 27px;
         letter-spacing: 0px;
-        color: #000000;
+        color: #000000; 
         font-family: "Segoe UI";
         font-weight: 300;
-        text-align: left;
-        padding-left: 5px;
         text-transform: uppercase;
         margin: 0;
     }
     .cloud {
-        width: 90px;
-        height: 62px;
-        margin-top: 36px;
-        margin-left: 31px;
-        margin-bottom: 11px;
-        align-content: center;
+        width: 112px;
+        height: 77px;
+        margin-top: 64px;
+        margin-left: 26px;
     }
     .leaf {
-        width: 67px;
-        height: 70px;
-        margin-top: 31px;
-        margin-left: 31px;
-        margin-bottom: 7px;
+        width: 93px;
+        height: 97px;
+        margin-top: 38px;
+        margin-left: 24px;
+        margin-bottom: 8px;
         align-content: center;
     }
     .plane {
-        width: 69px;
-        height: 70px;
-        margin-top: 32px;
-        margin-bottom: 7px;
-        margin-left: 12px;
+        width: 95px;
+        height: 85px;
+        margin-top: 55px;
+        align-content: center;
+        margin-bottom: 3px;
     }
     .yellow-wrapper {
-        height: 951px;
-        width: 640px;
-        background: url(./assets/images/mobile/Layer\ 33.png);
-        background-position-y: 464px;
-        background-repeat: no-repeat;
-        position: relative;
+        height: 1007px;
+        width: 1300px;
+        background: url(./assets/images/Layer\ 32.png);
+        background-size: cover;
+        box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
     }
     .yellow-part {
         width: 1300;
@@ -803,7 +800,7 @@ nav {
         display: block;
     }
     .yellow-header {
-        display: none;
+        display: block;
         margin-bottom: 39px;
     }
     .yellow-section {
@@ -822,10 +819,11 @@ nav {
         text-transform: uppercase;
     }
     .add-items {
-        display: grid;
-        grid-template-columns: 140px 306px 35px 348px 80px 249px 142px;
-        grid-template-rows: 233px;
+        display: flex;
         margin: 0;
+    }
+    .mobile-add-items {
+        display: none;
     }
     .description {
         grid-column: 2 / 4;
@@ -895,7 +893,7 @@ nav {
         margin-top: 164px;
     }
     .dater {
-        display: none;
+        display: block;
         width: 113px;
         height: 86px;
         margin-top: 1px;
@@ -922,7 +920,7 @@ nav {
         margin-left: 32px;
     }
     .scroller {
-        display: none;
+        display: block;
         height: 16px;
         margin-left: 213px;
     }
@@ -1037,12 +1035,11 @@ nav {
     }
     .footer-wrapper {
         height: 64px;
-        width: 640px;
-        background: url(./assets/images/mobile/Layer\ 36.png);
+        width: 1300px;
+        background: url(./assets/images/Layer\ 31.png);
         background-size: cover;
         margin: 0;
         box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
-        z-index: 1;
     }
     .footer-content {
         height: 64px;
@@ -1052,10 +1049,10 @@ nav {
         grid-template-areas: "footer-image" "footer-logo";
     }
     .footer-image {
-        height: 33px;
-        width: 32px;
-        margin-top: 5px;
-        margin-left: 64px;
+        height: 56px;
+        width: 56px;
+        margin-top: 3px;
+        margin-left: 139px;
         background: url(./assets/images/Shape\ 8\ copy\ 3.svg), url(./assets/images/Shape\ 8\ copy\ 4.svg);
         background-size: cover; 
     }
