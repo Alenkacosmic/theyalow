@@ -356,6 +356,9 @@ nav {
 .mobile-twitter {
     display: none;
 }
+.tweet-us {
+    display: none;
+}
 .twitter-me {
     display: none;
 }
@@ -952,14 +955,16 @@ nav {
         padding-left: 28px;
         padding-top: 7px;
     }
-    .sumit-tweet {
+    .submit-tweet {
         display: inline-block;
-        font-size: 15px;
+        height: 30px;
+        width: 73px;
         font-size: 15px;
         letter-spacing: 0px;
         color: #ffffff;
         font-family: "Arial";
         background-color: rgba(188,125,0,0.9019607843137255);
+        border-radius: 0 10px 10px 0;
     }
     .big-bird {
         background: url(./assets/images/Layer\ 22\ copy\ 3.png);
@@ -974,6 +979,20 @@ nav {
         height: 133px;
         margin-left: 82px;
         margin-top: 58px;  
+    }
+    .tweet-us {
+        display: flex;
+        width: 371px;
+        height: 30px;
+        margin-left: 26px;
+        margin-top: 16px;
+    }
+    .type-tweet {
+        width: 200px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px 0 0 10px;
     }
     .date-plus {
         display: none;
