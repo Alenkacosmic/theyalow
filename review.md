@@ -32,7 +32,7 @@ https://monosnap.com/file/NeLG6CyScw07uuTlO6m6db0R9LqmOf
 
 
 -4 балла - Несоответствие семантики html содержимому
- - Для логотипов вверху и внизу страницы лучше использовать img чем 
+ - Для логотипов вверху и внизу страницы лучше использовать img чем бекграунд
  - Не рекомендуется использовать теги article, section в качетсве бекграунд иконки
 Пример (https://monosnap.com/file/VNQkt6MwfMgSx5gXs5Qj2IJuSgsFPd)
 
